@@ -35,14 +35,14 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] A ticking timer to let user knows how much time they have left
+- [x] A ticking timer that automatically reset everyround to let user knows how much time they have left 
 - [x] Snack bar to notify user how many strikes they have taken
 - [x] Pick random clueHoldTime for each button every round
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
+![](https://media.giphy.com/media/DdAEhIWQoN5aNz8ADt/giphy.gif)
 ![](gif2-link-here)
 ![](gif3-link-here)
 ![](gif4-link-here)
