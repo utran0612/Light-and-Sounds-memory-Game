@@ -34,16 +34,16 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] A ticking timer that automatically reset when hit "Stop" or when user complete their guess
-- [ ] A snack bar to notify users how many errors they have made
+- [x] A ticking timer that automatically reset when hit "Stop" or when user complete their guess
+- [x] A snack bar to notify users how many errors they have made
 
 ## Video Walkthrough (GIF)
 
 My gif doesn't work so please view the videos in the hyperlinks:
-![](https://royal-motley-billboard.glitch.me) <br />
-[Sounds, buttons, timer, snackbar and lose Game](https://vimeo.com/694521819)
-[How my snackbar workd](gif3-link-here)
-[When user wins game](https://vimeo.com/694529429)
+![](https://media.giphy.com/media/DdAEhIWQoN5aNz8ADt/giphy.gif) <br />
+[Sounds, buttons, timer, snackbar and lose Game](https://vimeo.com/694521819)<br />
+[How my snackbar workd](gif3-link-here)<br />
+[When user wins game](https://vimeo.com/694529429)<br />
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
