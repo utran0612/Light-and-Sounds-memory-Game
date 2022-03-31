@@ -41,11 +41,11 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
+My gif doesn't work, so please view the videos in the hyperlinks:
 ![](https://media.giphy.com/media/DdAEhIWQoN5aNz8ADt/giphy.gif)
-[Video showing the features (with sounds)](https://vimeo.com/694521819)
-![](gif3-link-here)
-![](gif4-link-here)
+[Sounds, Timer, Snackbar, lose Game features)](https://vimeo.com/694521819)
+![Snackbars](gif3-link-here)
+![Win game](gif4-link-here)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
