@@ -42,7 +42,7 @@ The following **additional** features are implemented:
 My gif doesn't work so please view the videos in the hyperlinks:
 ![](https://media.giphy.com/media/DdAEhIWQoN5aNz8ADt/giphy.gif) <br />
 [Sounds, buttons, timer, snackbar and lose Game](https://vimeo.com/694521819)<br />
-[How my snackbar workd](gif3-link-here)<br />
+[How my snackbar works](gif3-link-here)<br />
 [When user wins game](https://vimeo.com/694529429)<br />
 
 ## Reflection Questions
