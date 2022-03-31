@@ -1,0 +1,211 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: "Montserrat";
+  line-height: 1.5;
+  background-color: #475B63;
+  color: #F3E8EE; 
+}
+
+#startBtn, #stopBtn{
+  height: 30px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: #BACDB0;
+  padding: 0px;
+  
+}
+
+.clock{
+  display: flex;
+  width: 30%
+}
+.flexChild{
+  flex: 0;
+  margin: 5px;
+}
+
+/*images and videos max out at full width */
+img {
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+}
+
+
+button{
+/*   padding: 10px; */
+  border-radius: 50%;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: #96DED1;
+}
+
+#button2 {
+    background: #FED8B1;
+}
+
+#button3 {
+    background: pink;
+}
+
+#button4 {
+    background: lightyellow;
+}
+
+#button5 {
+    background: #CCCCFF;
+}
+
+#button6 {
+    background: #82E0AA;
+}
+
+#button7 {
+    background: #C195D6;
+}
+
+#button1:active, #button1.lit{
+    background:green;
+}
+
+#button2:active, #button2.lit {
+    background:#FF8C00;
+}
+
+#button3:active, #button3.lit {
+    background:red;
+}
+
+#button4:active, #button4.lit {
+    background:#FFFF00;
+}
+
+#button5:active, #button5.lit{
+    background:#6C3483;
+}
+
+#button6:active, #button6.lit{
+    background:#28B463;
+}
+
+#button7:active, #button7.lit{
+    background:#5F247C;
+}
+
+
+/* Notify player when the hit 1st strike */
+#snackbar1 {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 150px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333333; /* Black background color */
+  color: #ffffff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 10px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when player hit 1 strike */
+#snackbar1.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+
+
+/* Notify player when they hit 2nd strike */
+#snackbar2 {
+  visibility: hidden; 
+  min-width: 150px; 
+  margin-left: -125px; 
+  background-color: #333333; 
+  color: #ffffff; 
+  text-align: center;
+  border-radius: 10px; 
+  padding: 16px; 
+  position: fixed; 
+  z-index: 1; 
+  left: 50%; 
+  bottom: 30px; 
+}
+/* Show the snackbar when player hits 2nd strike */
+#snackbar2.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
