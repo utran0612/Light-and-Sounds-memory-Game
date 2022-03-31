@@ -43,7 +43,7 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](https://media.giphy.com/media/DdAEhIWQoN5aNz8ADt/giphy.gif)
-![](gif2-link-here)
+![](https://vimeo.com/694521819)
 ![](gif3-link-here)
 ![](gif4-link-here)
 
