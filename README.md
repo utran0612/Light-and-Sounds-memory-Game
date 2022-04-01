@@ -77,12 +77,12 @@ My gif doesn't work so please view the videos in the hyperlinks:
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/ca1d55ee0d994666a9e813415b75b8aa)
 
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Uyen Tran
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
